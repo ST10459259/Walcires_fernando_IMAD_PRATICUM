@@ -7,58 +7,61 @@
     android:layout_height="match_parent"
     android:baselineAligned="false"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".SlapshScreen">
 
     <Space
         android:layout_width="match_parent"
-        android:layout_height="29dp" />
+        android:layout_height="90dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtMorning"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:text="World of Student life " />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="245dp"
-        tools:srcCompat="@tools:sample/avatars" />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:text="Morning Spending in Rands:" />
 
     <TextView
-        android:id="@+id/txt.slpash_1"
+        android:id="@+id/txtAfternoon"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="clip_horizontal"
-        android:text="Walcires Fernando" />
+        android:text="Afeternoon Spedind in Rands:" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/txtNotes"
         android:layout_width="match_parent"
-        android:layout_height="37dp"
-        android:gravity="clip_horizontal"
-        android:text="ST10459259" />
-
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="33dp" />
+        android:layout_height="wrap_content"
+        android:text="Expense Notes:" />
 
     <Button
-        android:id="@+id/btnStart"
+        android:id="@+id/btnclear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start" />
+        android:text="Submit" />
 
     <Button
-        android:id="@+id/btnexit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center_horizontal"
-        android:text="Exit" />
+        android:text="Calculate Avarege" />
+
+    <Button
+        android:id="@+id/btnclear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="25dp" />
+
+    <TextView
+        android:id="@+id/txtAvg_distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avarege Speding the day" />
+
+    <Button
+        android:id="@+id/btnViewDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Details" />
 
 </LinearLayout>
